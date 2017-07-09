@@ -1,1 +1,3 @@
-../../arm-cortex_a7-linux-gnueabihf/sysroot/lib/libitm.spec
+# This spec file is read by gcc when linking.  It is used to specify the
+# standard libraries we need in order to link with -fgnu-tm
+*link_itm: -litm %{static: }
