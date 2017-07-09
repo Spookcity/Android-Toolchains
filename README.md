@@ -6,7 +6,7 @@ My Toolchain Builds
  
 <h4>SaberMod-8</h4>
  
-<h5>built with ct-ng on 2017-06-07</h5>
+<h5>built with ct-ng on 2017-09-07</h5>
   
  
 <h6>Linux Kernel - 3.4.113</h6>
@@ -16,7 +16,7 @@ My Toolchain Builds
 <h6>GMP - 6.2.0 - SM</h6>
 <h6>ISL - 0.18 - UBER</h6>
 <h6>MPC - 1.0.3 - SM</h6>
-<h6>MPFR - 4.0.0 - UBER</h6>
+<h6>MPFR - 3.2.0 - SM</h6>
  
  <h2>CONFIGS</h2>
 

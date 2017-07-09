@@ -4,8 +4,8 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "8.0.x-sabermod 20170525 (experimental)")
-(!srcdir  "/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc")
+(!version  "8.0.x-sabermod 20170525")
+(!srcdir  "/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc")
 (!languages 10 ada brig c cp fortran go jit lto objc objcp)
 (!fileslist 210
  (!srcfile 1023  "../libcpp/include/line-map.h")
@@ -468,11 +468,11 @@
                    (!srcfileloc  "tree-core.h" 917)
                    nil )
                   (!pair  "u"
-                   (!type union 25 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/tree-core.h:919"
+                   (!type union 25 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/tree-core.h:919"
                     (!srcfileloc  "tree-core.h" 986)
                     (!fields 6 
                      (!pair  "bits"
-                      (!type struct 26 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/tree-core.h:922"
+                      (!type struct 26 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/tree-core.h:922"
                        (!srcfileloc  "tree-core.h" 945)
                        (!fields 16 
                         (!pair  "lang_flag_0"
@@ -544,7 +544,7 @@
                       (!srcfileloc  "tree-core.h" 945)
                       nil )
                      (!pair  "int_length"
-                      (!type struct 27 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/tree-core.h:952"
+                      (!type struct 27 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/tree-core.h:952"
                        (!srcfileloc  "tree-core.h" 966)
                        (!fields 3 
                         (!pair  "unextended"
@@ -576,7 +576,7 @@
                       (!srcfileloc  "tree-core.h" 975)
                       nil )
                      (!pair  "dependence_info"
-                      (!type struct 28 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/tree-core.h:982"
+                      (!type struct 28 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/tree-core.h:982"
                        (!srcfileloc  "tree-core.h" 985)
                        (!fields 2 
                         (!pair  "clique"
@@ -2325,7 +2325,7 @@
                        (!srcfileloc  "rtl.h" 395)
                        nil )
                       (!pair  "u2"
-                       (!type union 131 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/rtl.h:397"
+                       (!type union 131 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/rtl.h:397"
                         (!srcfileloc  "rtl.h" 418)
                         (!fields 5 
                          (!pair  "original_regno"
@@ -6438,7 +6438,7 @@
                                     )
                                    )
                                    (!pair  "x"
-                                    (!type struct 317 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/basic-block.h:140"
+                                    (!type struct 317 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/basic-block.h:140"
                                      (!srcfileloc  "basic-block.h" 143)
                                      (!fields 2 
                                       (!pair  "head_"
@@ -8801,7 +8801,7 @@
                                    (!srcfileloc  "dwarf2out.h" 57)
                                    nil )
                                   (!pair  "dw_cfi_oprnd1"
-                                   (!type union 445 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/dwarf2out.h:49"
+                                   (!type union 445 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/dwarf2out.h:49"
                                     (!srcfileloc  "dwarf2out.h" 54)
                                     (!fields 4 
                                      (!pair  "dw_cfi_reg_num"
@@ -9402,7 +9402,7 @@
                                                    (!srcfileloc  "dwarf2out.h" 181)
                                                    nil )
                                                   (!pair  "v"
-                                                   (!type union 478 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/dwarf2out.h:183"
+                                                   (!type union 478 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/dwarf2out.h:183"
                                                     (!srcfileloc  "dwarf2out.h" 186)
                                                     (!fields 2 
                                                      (!pair  "sval"
@@ -10865,7 +10865,7 @@
                       )
                      )
                      (!pair  "loc"
-                      (!type union 530 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/tree-core.h:1402"
+                      (!type union 530 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/tree-core.h:1402"
                        (!srcfileloc  "tree-core.h" 1402)
                        (!fields 2 
                         (!pair  "stmt"
@@ -12627,7 +12627,7 @@
                             (!srcfileloc  "c/c-decl.c" 198)
                             (!fields 11 
                              (!pair  "u"
-                              (!type union 606 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/c/c-decl.c:184"
+                              (!type union 606 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/c/c-decl.c:184"
                                (!srcfileloc  "c/c-decl.c" 187)
                                (!fields 2 
                                 (!pair  "type"
@@ -13916,7 +13916,7 @@
   )
   nil 1023 nil nil )
  
- (!type struct 660 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/../libcpp/include/line-map.h:1239"nil 
+ (!type struct 660 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/../libcpp/include/line-map.h:1239"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13994,11 +13994,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 675 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/../libcpp/include/cpplib.h:1113"nil 
+ (!type struct 675 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/../libcpp/include/cpplib.h:1113"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 676 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/../libcpp/include/cpplib.h:1124"nil 
+ (!type struct 676 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/../libcpp/include/cpplib.h:1124"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -14379,7 +14379,7 @@
     (!srcfileloc  "gimple.h" 359)
     nil )
    (!pair  "u"
-    (!type union 720 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/gimple.h:362"
+    (!type union 720 nil  gc_used "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/gimple.h:362"
      (!srcfileloc  "gimple.h" 365)
      (!fields 2 
       (!pair  "fntype"
@@ -15017,7 +15017,7 @@
  
  (!type already_seen 434)
  
- (!type struct 769 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/config/arm/arm.h:1455"nil 
+ (!type struct 769 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/config/arm/arm.h:1455"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -20577,7 +20577,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1261 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/mcf.c:343"nil 
+ (!type union 1261 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/mcf.c:343"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -20969,7 +20969,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1317 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/tree-eh.c:49"nil 
+ (!type union 1317 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/tree-eh.c:49"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -21393,11 +21393,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1401 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/config/arm/arm.c:2374"nil 
+ (!type struct 1401 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/config/arm/arm.c:2374"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1402 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/config/arm/arm.c:3691"nil 
+ (!type struct 1402 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/config/arm/arm.c:3691"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22189,7 +22189,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1532 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/config/arm/arm-builtins.c:278"nil 
+ (!type struct 1532 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/config/arm/arm-builtins.c:278"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22326,7 +22326,7 @@
   )
  )
  
- (!type struct 1557 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/ada/gcc-interface/decl.c:249"nil 
+ (!type struct 1557 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/ada/gcc-interface/decl.c:249"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -23083,7 +23083,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1639 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/c/c-parser.c:6650"nil 
+ (!type struct 1639 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/c/c-parser.c:6650"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -24922,7 +24922,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1808 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/fortran/trans.h:33"nil 
+ (!type struct 1808 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/fortran/trans.h:33"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -24946,11 +24946,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1814 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/fortran/trans.h:389"nil 
+ (!type struct 1814 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/fortran/trans.h:389"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1815 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0.0/gcc/fortran/trans.h:401"nil 
+ (!type struct 1815 nil  gc_unused "anonymous:/mnt/Ricks_Stuff/Toolchain_Sources/crosstool-ng/.build/src/gcc-8.0/gcc/fortran/trans.h:401"nil 
   (!fields 0 )
   nil 0 nil nil )
  

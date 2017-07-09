@@ -7,7 +7,7 @@
 
 static char basever[] = "8.0.x-sabermod";
 static char datestamp[] = "20170525";
-static char devphase[] = "experimental";
+static char devphase[] = "";
 static char revision[] = "";
 
 /* FIXME plugins: We should make the version information more precise.
